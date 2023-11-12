@@ -39,7 +39,7 @@
   </transition>
 </template>
 
-<script>
+<script >
 import { ref, nextTick, onMounted, onUnmounted, watch } from 'vue'
 
 export default {
