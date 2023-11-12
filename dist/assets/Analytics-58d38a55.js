@@ -1,1 +1,0 @@
-import{_ as e,b as t,c as s}from"./index-dc6de9e4.js";const a={name:"analytics"};function c(n,o,r,i,p,_){return t(),s("h1",null,"this is over view page")}const f=e(a,[["render",c]]);export{f as default};
