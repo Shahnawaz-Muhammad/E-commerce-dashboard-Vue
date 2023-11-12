@@ -1,0 +1,40 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Laptop",
+        "description": "High-performance laptop with the latest features.",
+        "price": 999.99,
+        "stock": 50
+      },
+      {
+        "id": 2,
+        "name": "Smartphone",
+        "description": "Feature-rich smartphone with a high-quality camera.",
+        "price": 499.99,
+        "stock": 100
+      },
+      {
+        "id": 3,
+        "name": "Wireless Headphones",
+        "description": "Noise-canceling wireless headphones for an immersive audio experience.",
+        "price": 129.99,
+        "stock": 75
+      },
+      {
+        "id": 4,
+        "name": "Fitness Tracker",
+        "description": "Track your fitness and health with this advanced fitness tracker.",
+        "price": 79.99,
+        "stock": 120
+      },
+      {
+        "id": 5,
+        "name": "Coffee Maker",
+        "description": "High-quality coffee maker for brewing your favorite coffee at home.",
+        "price": 49.99,
+        "stock": 30
+      }
+    ]
+  }
+  
