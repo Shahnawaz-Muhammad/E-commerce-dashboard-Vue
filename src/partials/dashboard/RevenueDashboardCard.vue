@@ -14,7 +14,7 @@
                 </select>
             </div>
         </div>
-        <LineChart :data="chartData" :options="chartOptions" width="595" height="248"></LineChart>
+        <LineChart :data="chartData" width="595" height="248"></LineChart>
     </div>
 </template>
   
@@ -28,6 +28,8 @@ export default {
     data() {
         return {
             chartData: {
+                selectedPeriod: 'daily',
+
                 labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
                 datasets: [
                     {
@@ -40,10 +42,14 @@ export default {
                     }
                 ]
             },
-            chartOptions: {
-
-            }
         };
+    },
+    methods: {
+        updateChartData() {
+            console.log('Selected Period:', this.selectedPeriod);
+            // Implement the logic to update your chart data here
+            console.log('Updated Chart Data:', this.chartData);
+        },
     },
 };
 </script>

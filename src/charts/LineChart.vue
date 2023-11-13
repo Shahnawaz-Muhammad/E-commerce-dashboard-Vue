@@ -1,5 +1,5 @@
 <template>
-    <Line :options="chartOptions" :data="chartData" :width="width" :height="height" />
+    <Line :data="chartData" :width="width" :height="height" />
 </template>
   
 <script>
@@ -29,6 +29,20 @@ export default {
     name: 'LineChart',
     components: {
         Line
+    },
+    props: {
+        chartData: {
+            type: Object,
+            required: true,
+        },
+        width: {
+            type: String,
+            default: 300,
+        },
+        height: {
+            type: String,
+            default: 150,
+        },
     },
 
 

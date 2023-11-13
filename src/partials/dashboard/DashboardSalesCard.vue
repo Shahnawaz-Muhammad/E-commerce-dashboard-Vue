@@ -4,7 +4,7 @@
         <header class="px-5 py-4 border-b border-slate-100 dark:border-slate-700">
             <h2 class="font-semibold text-slate-800 dark:text-slate-100">Sales</h2>
         </header>
-        <SalesChart :data="chartData" :options="chartOptions" width="595" height="248"></SalesChart>
+        <SalesChart :data="chartData" width="595" height="248"></SalesChart>
     </div>
 </template>
   
@@ -17,7 +17,7 @@ export default {
     components: {
         SalesChart,
     },
-    setup() {
+    data() {
         const chartData = ref({
             labels: [
                 '12-01-2020', '01-01-2021', '02-01-2021',
@@ -59,9 +59,3 @@ export default {
     }
 };
 </script>
-  
-
-backgroundColor:
-                        'rgba(255, 99, 132, 0.2)',
-                    borderColor:
-                        'rgba(255, 99, 132, 1)'
